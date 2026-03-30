@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-02-PIM-EnableCreateLoginDetails</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>27643aac-efe1-44e1-9274-b76bbaa65cb9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Employee InformationEmployee NameEmploy_e652fb</name>
+   <tag></tag>
+   <elementGuidId>c6d20029-2f4d-4e2f-99b7-9ba94df768a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.oxd-layout-context</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>96cbcc68-332a-4cf3-aa4d-f110d4e6c379</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-layout-context</value>
+      <webElementGuid>bdcf0025-8acb-4ad8-b2ea-eb3a2ec3ef1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Employee InformationEmployee NameEmployee IdEmployment Status-- Select --IncludeCurrent Employees OnlySupervisor NameJob Title-- Select --Sub Unit-- Select -- Reset  Search  Add No Records FoundIdAscendingDescendingFirst (&amp; Middle) NameAscendingDescendingLast NameAscendingDescendingJob TitleAscendingDescendingEmployment StatusAscendingDescendingSub UnitAscendingDescendingSupervisorAscendingDescendingActions</value>
+      <webElementGuid>0d1d36dd-fdbc-4f04-bf41-9007a4f21a1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]</value>
+      <webElementGuid>1d6e2412-c936-40b6-b93e-f11982a31ae6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]</value>
+      <webElementGuid>761ff6df-df80-4fc4-9c9e-51c553b500cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configuration'])[1]/following::div[4]</value>
+      <webElementGuid>03588f20-2d14-48b3-9ed5-f2e0541a667d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]</value>
+      <webElementGuid>2f11cc94-494d-4b67-ab13-cd47de6fc704</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Employee InformationEmployee NameEmployee IdEmployment Status-- Select --IncludeCurrent Employees OnlySupervisor NameJob Title-- Select --Sub Unit-- Select -- Reset  Search  Add No Records FoundIdAscendingDescendingFirst (&amp; Middle) NameAscendingDescendingLast NameAscendingDescendingJob TitleAscendingDescendingEmployment StatusAscendingDescendingSub UnitAscendingDescendingSupervisorAscendingDescendingActions' or . = 'Employee InformationEmployee NameEmployee IdEmployment Status-- Select --IncludeCurrent Employees OnlySupervisor NameJob Title-- Select --Sub Unit-- Select -- Reset  Search  Add No Records FoundIdAscendingDescendingFirst (&amp; Middle) NameAscendingDescendingLast NameAscendingDescendingJob TitleAscendingDescendingEmployment StatusAscendingDescendingSub UnitAscendingDescendingSupervisorAscendingDescendingActions')]</value>
+      <webElementGuid>f401e47b-5ac5-4a0e-a1f9-c94092f5b4db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

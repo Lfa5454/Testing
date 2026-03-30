@@ -6,12 +6,12 @@
    <UUID>e72ef781-bce1-446e-90db-642c34de0456</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>10.4.1</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>10.4.1</modifiedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>10.1.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\hp\OneDrive\Documents\Portfolio QA\OrangeHRM-Web-Automation-Testing-using-Katalon\OrangeHRM Web Testing\OrangeHRM Web Testing.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\lfajardo\OrangeHRM-Web-Automation-Testing-using-Katalon-Studio\OrangeHRM Web Testing\OrangeHRM Web Testing.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

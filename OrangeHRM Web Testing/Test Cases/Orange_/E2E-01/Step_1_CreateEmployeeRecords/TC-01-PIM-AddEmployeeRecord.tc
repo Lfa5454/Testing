@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-01-PIM-AddEmployeeRecord</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d7a574c5-543b-4def-b18c-4c5d768f2da2</testCaseGuid>
+</TestCaseEntity>

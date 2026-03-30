@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-04-Admin-Search_vramirez_UserName</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ef3086d-21d0-4baa-bc73-8724cbd7c167</testCaseGuid>
+</TestCaseEntity>

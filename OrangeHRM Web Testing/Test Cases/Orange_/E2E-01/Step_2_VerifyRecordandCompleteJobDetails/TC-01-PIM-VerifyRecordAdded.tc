@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-01-PIM-VerifyRecordAdded</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e1db756-f71f-4062-9da2-0272e8a88fff</testCaseGuid>
+</TestCaseEntity>

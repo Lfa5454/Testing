@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-008-Success add Employee - NoIncognito</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c62340ad-afc6-4a16-8966-e6f52f1023e6</testCaseGuid>
+</TestCaseEntity>

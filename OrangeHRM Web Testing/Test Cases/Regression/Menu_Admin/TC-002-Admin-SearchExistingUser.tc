@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-002-Admin-SearchExistingUser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>427758b7-de7f-49dd-9256-e0e0dc3a77a2</testCaseGuid>
+</TestCaseEntity>

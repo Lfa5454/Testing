@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-018- PersonalDetails-Job-DetailsAdded</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4217b129-47a1-462b-9022-6a2be0f21dc4</testCaseGuid>
+</TestCaseEntity>

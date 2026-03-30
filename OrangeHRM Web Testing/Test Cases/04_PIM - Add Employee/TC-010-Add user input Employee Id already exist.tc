@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC-010-Add user input Employee Id already exist</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b99deaeb-e41f-4427-94af-4dcdfdfa767d</testCaseGuid>
-</TestCaseEntity>

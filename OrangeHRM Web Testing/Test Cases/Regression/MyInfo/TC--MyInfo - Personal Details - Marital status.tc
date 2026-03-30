@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC--MyInfo - Personal Details - Marital status</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4aaa1949-0066-4e51-89d1-614a8a454392</testCaseGuid>
+</TestCaseEntity>

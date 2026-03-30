@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-02-PIM-JobTab-CompleteJobDetails</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>008438f7-a779-4746-bc8c-d92863e52981</testCaseGuid>
+</TestCaseEntity>
