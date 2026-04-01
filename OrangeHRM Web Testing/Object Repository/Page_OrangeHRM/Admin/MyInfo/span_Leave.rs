@@ -6,15 +6,18 @@
    <elementGuidId>2cdbd3c5-e82f-4a5b-b2b0-db9223008871</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[3]/a/span</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@class,'oxd-main-menu-item')]//span[text()='Leave']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>2ba07e25-7941-4994-9ee1-5ee80ee7c467</webElementGuid>
+      <webElementGuid>c6882802-2fa7-4b87-bd91-a8e9c2ff8d26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,23 +34,23 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-text oxd-text--span oxd-main-menu-item--name</value>
-      <webElementGuid>2fb1cc80-7b15-425e-9777-d505bcbad463</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Leave</value>
-      <webElementGuid>52677e8c-98bc-436a-8b0e-308132aaf634</webElementGuid>
+      <webElementGuid>1207b746-3603-4112-84ad-da5f3514ec15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leave</value>
+      <webElementGuid>d64adb6c-9035-44a2-97b0-b4b09c217963</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]/span[@class=&quot;oxd-text oxd-text--span oxd-main-menu-item--name&quot;]</value>
-      <webElementGuid>519e421a-990e-4a9f-87f8-6bf94853ffc7</webElementGuid>
+      <value>//a[contains(@class,'oxd-main-menu-item')]//span[text()='Leave']</value>
+      <webElementGuid>55839c7f-79d0-4863-96af-d040d3a5387e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[3]/a/span</value>
-      <webElementGuid>1c5ec7e5-55c1-4b9f-8c80-e7ac12685fbf</webElementGuid>
+      <webElementGuid>bb00eb34-f86f-491d-9ba5-89a0ce0a811d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Leave']/parent::*</value>
-      <webElementGuid>4179a832-2bab-4a39-a40c-48cee5a033f0</webElementGuid>
+      <webElementGuid>4c2aa47e-85ff-44fc-8836-bd7de609c738</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/a/span</value>
-      <webElementGuid>cef58fcc-42de-4e6a-b1ee-9e34288e14be</webElementGuid>
+      <webElementGuid>dc65880f-30e0-40c3-a045-674d4d86ebe2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Leave' or . = 'Leave')]</value>
-      <webElementGuid>d33601ae-5e39-4a6b-aa9d-1aae0b16759a</webElementGuid>
+      <webElementGuid>7ff7e029-2e2c-4ee9-8e45-aeb3fdc4ca80</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

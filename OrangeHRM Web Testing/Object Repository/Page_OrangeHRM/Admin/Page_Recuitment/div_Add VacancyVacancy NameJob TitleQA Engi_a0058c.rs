@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Add VacancyVacancy NameJob TitleQA Engi_a0058c</name>
+   <tag></tag>
+   <elementGuidId>ca156d14-0812-4581-8e30-3d7067a08c19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.orangehrm-card-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>156b8e92-12d0-4f6c-a2e4-ba062ee0f594</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>orangehrm-card-container</value>
+      <webElementGuid>e6bc02b7-f6d0-4887-bf2d-99081f11d393</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add VacancyVacancy NameJob TitleQA EngineerDescriptionHiring ManagerInvalidNumber of PositionsActivePublish in RSS Feed and Web PageRSS Feed URL : https://opensource-demo.orangehrmlive.com/web/index.php/recruitmentApply/jobs.rssWeb Page URL : https://opensource-demo.orangehrmlive.com/web/index.php/recruitmentApply/jobs.html * Required Cancel  Save </value>
+      <webElementGuid>0004c884-bcfa-47b4-a132-2924ebb6b827</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]</value>
+      <webElementGuid>215ee386-d539-4c3f-bfc4-9026ace57d99</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div</value>
+      <webElementGuid>9f7d2566-f924-4335-af4e-10d117e61c84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>0ef955cc-f590-4112-83b1-0a89bc6b3db1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Add VacancyVacancy NameJob TitleQA EngineerDescriptionHiring ManagerInvalidNumber of PositionsActivePublish in RSS Feed and Web PageRSS Feed URL : https://opensource-demo.orangehrmlive.com/web/index.php/recruitmentApply/jobs.rssWeb Page URL : https://opensource-demo.orangehrmlive.com/web/index.php/recruitmentApply/jobs.html * Required Cancel  Save ' or . = 'Add VacancyVacancy NameJob TitleQA EngineerDescriptionHiring ManagerInvalidNumber of PositionsActivePublish in RSS Feed and Web PageRSS Feed URL : https://opensource-demo.orangehrmlive.com/web/index.php/recruitmentApply/jobs.rssWeb Page URL : https://opensource-demo.orangehrmlive.com/web/index.php/recruitmentApply/jobs.html * Required Cancel  Save ')]</value>
+      <webElementGuid>b76156d6-1158-4d01-a3ec-224ed7bd4db9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

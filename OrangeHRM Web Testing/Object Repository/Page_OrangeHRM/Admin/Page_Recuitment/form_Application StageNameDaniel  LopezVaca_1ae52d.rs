@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_Application StageNameDaniel  LopezVaca_1ae52d</name>
+   <tag></tag>
+   <elementGuidId>c53f658a-6626-417b-ab46-4961bdf52593</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>form.oxd-form</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/form</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>2f6af783-d991-4a9b-8354-504230458f85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-form</value>
+      <webElementGuid>8f7d871c-87f1-4cf2-9cd9-e721b4dc40f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Application StageNameDaniel  LopezVacancyQA-Auto-GDL-2026Hiring ManagerRahul  DasStatus: Application Initiated Reject  Shortlist </value>
+      <webElementGuid>ac17a1db-3461-4264-b4d1-3a1834f617eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]</value>
+      <webElementGuid>ec4078b2-3925-4e2e-b5da-0801b9f28ee6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/form</value>
+      <webElementGuid>647b301b-8a47-4c56-b35d-199497ae1a8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>9554a0d5-2234-4e84-8461-d0b8f00df402</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'Application StageNameDaniel  LopezVacancyQA-Auto-GDL-2026Hiring ManagerRahul  DasStatus: Application Initiated Reject  Shortlist ' or . = 'Application StageNameDaniel  LopezVacancyQA-Auto-GDL-2026Hiring ManagerRahul  DasStatus: Application Initiated Reject  Shortlist ')]</value>
+      <webElementGuid>6cd25507-25dc-4198-b93d-d37a105f8bce</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

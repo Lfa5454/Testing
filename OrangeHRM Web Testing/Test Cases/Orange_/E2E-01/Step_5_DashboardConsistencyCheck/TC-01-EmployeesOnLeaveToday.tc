@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-01-EmployeesOnLeaveToday</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e53c8e58-d61c-49e7-aadc-6ba20f298d3c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-01-LogInAsVramirez- MyTimeSheets</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>64d28ceb-1ef2-417a-aacb-93f39c955e33</testCaseGuid>
+</TestCaseEntity>

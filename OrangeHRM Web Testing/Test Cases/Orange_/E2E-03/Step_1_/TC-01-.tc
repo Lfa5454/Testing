@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-01-LoginWithUsernameCreated - Copy</name>
+   <name>TC-01-</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>daeec24d-d357-4786-8dfb-1faa0fcf8281</testCaseGuid>
+   <testCaseGuid>7999140f-f077-42e8-a1ae-6c8c1553b58d</testCaseGuid>
 </TestCaseEntity>

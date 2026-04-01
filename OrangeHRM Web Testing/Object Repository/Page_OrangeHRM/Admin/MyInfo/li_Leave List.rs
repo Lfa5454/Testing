@@ -6,6 +6,10 @@
    <elementGuidId>fc96dd63-2e71-4c15-b0a7-867bd5f920a9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[normalize-space(text())='Leave List'][count(. | //*[(text() = 'Leave List ' or . = 'Leave List ')]) = count(//*[(text() = 'Leave List ' or . = 'Leave List ')])]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div > li</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[6]/ul/div/li</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>8b0806a1-8c2e-4eba-b47d-7e8e8d18d1b9</webElementGuid>
+      <webElementGuid>ad5ebf47-808d-49ea-8b35-9d4ad1135518</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,15 +35,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Leave List </value>
-      <webElementGuid>245f7d46-38d7-4af1-8856-a76bd86b9c0b</webElementGuid>
+      <webElementGuid>43fc8f6c-aa17-4f37-92e8-044cf3832e51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-body&quot;]/nav[@class=&quot;oxd-topbar-body-nav&quot;]/ul[1]/li[@class=&quot;--active oxd-topbar-body-nav-tab&quot;]/ul[@class=&quot;oxd-dropdown-menu&quot;]/div[1]/li[1]</value>
-      <webElementGuid>a89b62c6-2429-49c2-85af-6e86319ffe05</webElementGuid>
+      <value>//a[normalize-space(text())='Leave List']</value>
+      <webElementGuid>be638557-d4ef-48cb-8ff5-5c12d83db27a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[6]/ul/div/li</value>
-      <webElementGuid>a6cdde25-cfea-4c9c-a74e-04ec08e27b95</webElementGuid>
+      <webElementGuid>c6c9d963-54b4-4829-8037-f1b54ad80561</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[1]/following::li[1]</value>
-      <webElementGuid>5ec58801-6d9d-4cb9-8225-bbb3a8c2a20f</webElementGuid>
+      <webElementGuid>1f9e5124-f757-4fb6-bbeb-664ca0f7448d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Configure'])[1]/following::li[2]</value>
-      <webElementGuid>36931660-c5c2-4ae2-a4b1-0b659068a5bb</webElementGuid>
+      <webElementGuid>7569f9ab-0b44-4cc5-aa0d-7aa8375fe82d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Name'])[1]/preceding::li[2]</value>
-      <webElementGuid>aa39d65e-02f9-43e4-a955-ddd568347ea8</webElementGuid>
+      <webElementGuid>325d12d4-40d6-4174-98fa-e0a5850be4c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/li</value>
-      <webElementGuid>d8cb4c57-f7df-4cd3-b749-890b52c780e8</webElementGuid>
+      <webElementGuid>249da082-c7d4-4941-b15f-cc4f5249901d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +91,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Leave List ' or . = 'Leave List ')]</value>
-      <webElementGuid>a08e49f1-82ba-45a4-9d72-af20d64a5ec4</webElementGuid>
+      <webElementGuid>20f13684-67c6-4ead-9191-b594309ca731</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

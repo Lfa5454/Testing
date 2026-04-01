@@ -27,37 +27,57 @@ public class helperNotifications {
 	// ============================
 	// 🔹 VERIFY GENERIC NOTIFICATION
 	// ============================
-	@Keyword
+	
+	
+	// Locators for notifications
+	TestObject notificationUpdate = findTestObject('Object Repository/Page_OrangeHRM/PIM/Edit/popupNotification_SuccessfullyUpdated')
+	TestObject notificationSaved  = findTestObject('Object Repository/Page_OrangeHRM/PIM/Add/popupNotification_SuccessfullySaved')
 
+	/**
+	 * Keyword to verify notification messages
+	 * @param actionType - "update" or "save"
+	 */
+	@Keyword
 	def verifyNotification(String actionType) {
 		TestObject notificationObj
 		String expectedMessage
 
 		switch(actionType.toLowerCase()) {
 			case "update":
-				notificationObj = findTestObject('Object Repository/Page_OrangeHRM/PIM/Edit/popupNotification_SuccessfullyUpdated')
+				notificationObj = notificationUpdate
 				expectedMessage = "Successfully Updated"
 				break
 
 			case "save":
-				notificationObj = findTestObject('Object Repository/Page_OrangeHRM/PIM/Add/popupNotification_SuccessfullySaved')
+				notificationObj = notificationSaved
 				expectedMessage = "Successfully Saved"
 				break
 
 			default:
-				KeywordUtil.markFailed("No suported: " + actionType)
+				KeywordUtil.markFailed("Unsupported action type: " + actionType)
 				return
 		}
 
+		// Wait for the notification to appear
 		WebUI.waitForElementVisible(notificationObj, 10)
 
-		// 🔹 get and print the real text
-		String actualText = WebUI.getText(notificationObj)
-		println("Texto encontrado en notificación: [" + actualText + "]")
+		// Get the actual message displayed
+		String actualMessage = WebUI.getText(notificationObj)
+		KeywordUtil.logInfo("Actual notification message: " + actualMessage)
 
-		// flexible Validation
-		WebUI.verifyMatch(actualText.trim(), expectedMessage, true)
+		// Validate the message
+		if (!actualMessage.contains(expectedMessage)) {
+			KeywordUtil.markFailed(
+				"Expected: '" + expectedMessage + "' but received: '" + actualMessage + "'"
+			)
+		} else {
+			KeywordUtil.logInfo("Notification verified successfully.")
+		}
 	}
+
+
+	
+	
 	// ============================
 	// 🔹 VERIFY UPDATE NOTIFICATION
 	// ============================

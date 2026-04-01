@@ -6,6 +6,10 @@
    <elementGuidId>b9b48dd2-0a62-4eac-b187-16ea03042c6d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'oxd-autocomplete-text-input')]//input[@placeholder='Type for hints...']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.oxd-autocomplete-text-input.oxd-autocomplete-text-input--focus > input</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,23 +27,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3cd5e831-40a7-42fd-86dc-f09524ed9e5d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Type for hints...</value>
-      <webElementGuid>5d9deed9-f369-4b30-916b-7d54dba0d132</webElementGuid>
+      <webElementGuid>6c8cc5ee-be6c-4f04-be4f-a69673711315</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Type for hints...</value>
+      <webElementGuid>092db610-04ae-4424-9357-53de7050cc04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-autocomplete-wrapper&quot;]/div[@class=&quot;oxd-autocomplete-text-input oxd-autocomplete-text-input--focus&quot;]/input[1]</value>
-      <webElementGuid>a1a5aacc-13f2-4f88-8633-b35b191e02ff</webElementGuid>
+      <value>//div[contains(@class,'oxd-autocomplete-text-input')]//input[@placeholder='Type for hints...']</value>
+      <webElementGuid>6851e0a9-0ccf-4bfb-83a9-d2a09e951cb1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div/input</value>
-      <webElementGuid>5879d559-cf45-4b4e-9c30-a24ae361ae45</webElementGuid>
+      <webElementGuid>41e68981-58de-428c-94f0-df8f291cbdae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/div/input</value>
-      <webElementGuid>654b8573-50f2-4f61-a2bb-becc2831ce18</webElementGuid>
+      <webElementGuid>d35eadda-c29c-4601-af85-5c719277b624</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +67,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Type for hints...']</value>
-      <webElementGuid>a071e205-88b0-44ae-8306-3f9ce9acef9f</webElementGuid>
+      <webElementGuid>16d3b8f6-57c5-4c2f-ba52-dd91d81ea28f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

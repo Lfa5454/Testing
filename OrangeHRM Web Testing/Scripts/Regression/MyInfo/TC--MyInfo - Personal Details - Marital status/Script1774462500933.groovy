@@ -39,7 +39,7 @@ WebUI.waitForElementVisible(firstOption, 10)
 
 WebUI.click(firstOption)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/Admin/MyInfo/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec'))
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/Admin/MyInfo/input_NameDropdown'))
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/Admin/MyInfo/input_From Date_oxd-input oxd-input--focus'))
 

@@ -94,4 +94,14 @@
       <initValue>false</initValue>
       <name>loginDone</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2026-03-30'</initValue>
+      <name>leave_FromDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2026-03-31'</initValue>
+      <name>leave_ToDate</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

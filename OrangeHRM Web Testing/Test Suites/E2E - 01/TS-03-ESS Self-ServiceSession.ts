@@ -15,7 +15,7 @@
       <guid>06d5e51d-20b3-44dc-9dd5-f63c047edc1c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Orange_/E2E-01/Step_3_ESS_SelfServiceSession/TC-01-LoginWithUsernameCreated - Copy</testCaseId>
+      <testCaseId>Test Cases/Orange_/E2E-01/Step_3_ESS_SelfServiceSession/TC-01-LoginWithUsernameCreated</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

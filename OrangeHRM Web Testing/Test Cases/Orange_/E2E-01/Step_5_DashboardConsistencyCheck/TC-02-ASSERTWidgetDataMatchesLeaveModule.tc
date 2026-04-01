@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-02-ASSERTWidgetDataMatchesLeaveModule</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5f0f76f6-f9c7-4969-851a-e92e27eaf56b</testCaseGuid>
+</TestCaseEntity>

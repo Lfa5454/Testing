@@ -367,17 +367,17 @@ class helpersKeywords {
 		// Construir dinámicamente el TestObject con XPath que busque ambos valores en la misma fila
 		TestObject fullNameRow = new TestObject("dynamicFullNameRow")
 		fullNameRow.addProperty("xpath", ConditionType.EQUALS,
-			"//tr[td[normalize-space(text())='" + firstName + "'] and td[normalize-space(text())='" + lastName + "']]")
-	
+				"//tr[td[normalize-space(text())='" + firstName + "'] and td[normalize-space(text())='" + lastName + "']]")
+
 		WebUI.waitForElementVisible(fullNameRow, 10)
-	
+
 		if (WebUI.verifyElementPresent(fullNameRow, 5, FailureHandling.OPTIONAL)) {
 			KeywordUtil.markPassed("Nombre y apellido encontrados en la misma fila: " + firstName + " " + lastName)
 		} else {
 			KeywordUtil.markFailed("No se encontró la fila con: " + firstName + " " + lastName)
 		}
 	}
-	
+
 	@Keyword
 	def verifyRedirectPage(String expectedUrlFragment) {
 		WebUI.waitForPageLoad(10)
@@ -389,5 +389,49 @@ class helpersKeywords {
 			KeywordUtil.markFailed("Redirect failed. Expected fragment: " + expectedUrlFragment + " but got: " + currentUrl)
 			WebUI.closeBrowser()
 		}
+	}
+	/**
+	 * Keyword to set text in any input field by XPath
+	 * @param xpath - the XPath of the input field
+	 * @param value - the text to set
+	 */
+	@Keyword
+	def setInputByXpath(TestObject inputField, String value) {
+    WebUI.waitForElementClickable(inputField, 10)
+
+    WebUI.click(inputField)
+    WebUI.sendKeys(inputField, Keys.chord(Keys.CONTROL, "a"))
+    WebUI.sendKeys(inputField, Keys.chord(Keys.DELETE))
+
+    WebUI.setText(inputField, value)
+
+    String actualValue = WebUI.getAttribute(inputField, "value")
+    WebUI.verifyMatch(actualValue, value, false)
+}
+
+	/**
+	 * Keyword to select an employee from a search input
+	 * @param employeeInput - TestObject for the input field
+	 * @param selectEmployee - TestObject for the dropdown/selection element
+	 * @param employeeName - the name to type and select
+	 */
+	@Keyword
+	def selectEmployee(TestObject employeeInput, TestObject selectEmployee, String employeeName) {
+		// Type employee name
+		WebUI.waitForElementClickable(employeeInput, 10)
+		WebUI.setText(employeeInput, employeeName)
+
+		// Small delay to allow dropdown to populate
+		WebUI.delay(2)
+
+		// Click on the dropdown option
+		WebUI.click(selectEmployee)
+
+		// Log info
+		KeywordUtil.logInfo("✅ Employee selected: " + employeeName)
+
+		// Optional verification
+		String actualValue = WebUI.getAttribute(employeeInput, "value")
+		WebUI.verifyMatch(actualValue, employeeName, false)
 	}
 }

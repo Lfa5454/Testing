@@ -6,15 +6,19 @@
    <elementGuidId>e6e8d3ed-746d-4c11-a039-2e667e20d6a3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[4]/div/div[2]/div/div[2]/div/div/div[2]/i</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>i.oxd-icon.bi-caret-up-fill.oxd-select-text--arrow</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[4]/div/div[2]/div/div[2]/div/div/div[2]/i</value>
+         <key>BASIC</key>
+         <value>//label[text()='Show Leave with Status']/ancestor::div[contains(@class,'oxd-input-group')]//i[contains(@class,'oxd-select-text--arrow')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>aef4a524-97c8-4ec4-9556-47c8545a9be0</webElementGuid>
+      <webElementGuid>c9dbd688-3009-4373-8111-a1ceb86ca53c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-icon bi-caret-up-fill oxd-select-text--arrow</value>
-      <webElementGuid>2c6c3059-f9c5-4661-aa5d-166d79544142</webElementGuid>
+      <webElementGuid>cb0bd537-e395-4210-b57a-dfab20a6a1b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-4 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-select-wrapper&quot;]/div[@class=&quot;oxd-select-text oxd-select-text--focus&quot;]/div[@class=&quot;oxd-select-text--after&quot;]/i[@class=&quot;oxd-icon bi-caret-up-fill oxd-select-text--arrow&quot;]</value>
-      <webElementGuid>999b9e89-881d-4a02-849d-eb1df9593040</webElementGuid>
+      <value>//label[text()='Show Leave with Status']/ancestor::div[contains(@class,'oxd-input-group')]//i[contains(@class,'oxd-select-text--arrow')]</value>
+      <webElementGuid>86d9df6e-8fb0-4da8-819c-98b9c6928771</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[4]/div/div[2]/div/div[2]/div/div/div[2]/i</value>
-      <webElementGuid>6ebe5e63-0272-4f2a-9f52-8318612b5c74</webElementGuid>
+      <webElementGuid>de35b551-299f-4dbf-89d9-bbac093109d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,6 +59,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div/div[2]/i</value>
-      <webElementGuid>2ad14b07-100f-42bf-89ee-b9c26b325069</webElementGuid>
+      <webElementGuid>acb86c42-c143-40fc-a423-a0d02ca9c035</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
