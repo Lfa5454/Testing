@@ -10,7 +10,7 @@ To get started with the testing project, follow the steps below:
    - Open the project folder.
    - Wait for all plugins and dependencies to load.
 6. Run Test Suites.
-   Open the `Test Suites` folder → Select `Sprint1` → Click Run ▶ using your preferred browser (Chrome/Edge/Firefox).
+   Open the `Test Suites` folder → Select the test suite that you need to run → Click Run ▶ using your preferred browser (Chrome/Edge/Firefox).
 
 
 #### Base URL OrangeHRM Application : 
@@ -23,5 +23,3 @@ https://docs.google.com/spreadsheets/d/1mcc9_MJFgVjauexc1gQztNquZGhxWd-b/edit?us
 https://drive.google.com/drive/folders/1eWlgqMOGeTMAA0Ts463IK7w1p-8tJP2J?usp=sharing
 
 
-### Contact Me
-If you have any questions or comments about any of these tools, feel free to reach out to me at https://www.linkedin.com/in/agneszahrani/.
