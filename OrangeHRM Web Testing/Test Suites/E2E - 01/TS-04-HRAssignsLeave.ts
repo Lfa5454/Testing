@@ -15,7 +15,7 @@
       <guid>a40edc7a-4a20-480e-a98a-c969d315fcb7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Orange_/E2E-01/Step_4_-HRAssignsLeave/TC-01-AssignLeavePage</testCaseId>
+      <testCaseId>Test Cases/Orange_HRM/E2E-01/Step_4_-HRAssignsLeave/TC-01-AssignLeavePage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

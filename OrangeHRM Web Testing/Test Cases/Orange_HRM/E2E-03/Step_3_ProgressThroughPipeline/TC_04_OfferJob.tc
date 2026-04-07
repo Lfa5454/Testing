@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_04_OfferJob</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7903fa68-d380-4f4b-9d26-a09c6d4a63eb</testCaseGuid>
+</TestCaseEntity>

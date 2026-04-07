@@ -6,12 +6,15 @@
    <elementGuidId>248b9d6b-4ea1-457c-a4a4-5b62162afaa5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form/div/div/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@class='oxd-text oxd-text--p orangehrm-file-name']//i[contains(@class,'bi-download')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>33fbcbaa-87a5-48a1-bca1-8af13b1ae095</webElementGuid>
+      <webElementGuid>a4248184-d3a7-4aad-ad78-c15d043eb74a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,23 +34,23 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-input-group oxd-input-field-bottom-space</value>
-      <webElementGuid>ef534e3b-4231-4f49-9f18-7fbb1a3db447</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Hiring Manager-- Select --</value>
-      <webElementGuid>f12a1d3e-92ac-40d0-9f6f-b5800a971996</webElementGuid>
+      <webElementGuid>23dfeaf5-fc6c-4544-b277-933efd798f47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hiring Manager-- Select --</value>
+      <webElementGuid>38520063-099f-4b47-98ab-ab31633daf98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-candidate-page&quot;]/div[@class=&quot;oxd-table-filter&quot;]/div[@class=&quot;oxd-table-filter-area&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-4 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]</value>
-      <webElementGuid>67215f31-2c73-4140-b4ff-bcbd71f607f3</webElementGuid>
+      <value>//p[@class='oxd-text oxd-text--p orangehrm-file-name']//i[contains(@class,'bi-download')]</value>
+      <webElementGuid>82b16e98-eb7a-4211-aecc-c000a25f5e85</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form/div/div/div[3]/div</value>
-      <webElementGuid>01188b24-96ab-45d8-8f56-63e57133be52</webElementGuid>
+      <webElementGuid>a137e83d-0ade-48a0-99da-5eaa4f8b3ab8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='QA-Auto-GDL-2026'])[1]/following::div[3]</value>
-      <webElementGuid>613d96d4-887c-4992-9a2e-3c8850841064</webElementGuid>
+      <webElementGuid>6deeda75-c20c-4f28-9450-40e8c436fb25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vacancy'])[1]/following::div[7]</value>
-      <webElementGuid>f928e1cb-c913-4b83-a71b-15a5babadfd6</webElementGuid>
+      <webElementGuid>93d05592-7cba-4a8c-82e0-6655c9c81cc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[3]/div</value>
-      <webElementGuid>32d931c7-112c-4bb3-984c-64d3beec1971</webElementGuid>
+      <webElementGuid>5a9178b0-dad6-40df-af16-7448c6d2445f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Hiring Manager-- Select --' or . = 'Hiring Manager-- Select --')]</value>
-      <webElementGuid>4ba34810-083d-444d-9aa9-e2488f8c7d1e</webElementGuid>
+      <webElementGuid>d3e1a552-3587-4418-8803-8c98cf8dea6d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

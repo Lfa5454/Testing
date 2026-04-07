@@ -60,10 +60,10 @@ def tearDown() {
 @SetupTestCase(skipped = true) // Please change skipped to be false to activate this method.
 
 def setupTestCase() {
-WebUI.callTestCase(findTestCase('Test Cases/Orange_/E2E-01/Step_2_VerifyRecordandCompleteJobDetails/TC-01-PIM-VerifyRecordAdded'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Test Cases/Orange_/E2E-01/Step_2_VerifyRecordandCompleteJobDetails/TC-02-PIM-JobTab-CompleteJobDetails'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Test Cases/Orange_/E2E-01/Step_2_VerifyRecordandCompleteJobDetails/TC-02-PIM-JobTab-CompleteJobDetails'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Test Cases/Orange_/E2E-01/Step_2_VerifyRecordandCompleteJobDetails/TC-04-Admin-Search_vramirez_UserName'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Orange_HRM/E2E-01/Step_2_VerifyRecordandCompleteJobDetails/TC-01-PIM-VerifyRecordAdded'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Orange_HRM/E2E-01/Step_2_VerifyRecordandCompleteJobDetails/TC-02-PIM-JobTab-CompleteJobDetails'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Orange_HRM/E2E-01/Step_2_VerifyRecordandCompleteJobDetails/TC-02-PIM-JobTab-CompleteJobDetails'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Orange_HRM/E2E-01/Step_2_VerifyRecordandCompleteJobDetails/TC-04-Admin-Search_vramirez_UserName'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 

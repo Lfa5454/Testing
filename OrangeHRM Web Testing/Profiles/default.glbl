@@ -104,4 +104,9 @@
       <initValue>'2026-03-31'</initValue>
       <name>leave_ToDate</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\\\Users\\\\lfajardo\\\\OrangeHRM-Web-Automation-Testing-using-Katalon-Studio\\\\OrangeHRM Web Testing\\\\Data Files\\\\DLopez_QA_Resume.pdf'</initValue>
+      <name>resumePath</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

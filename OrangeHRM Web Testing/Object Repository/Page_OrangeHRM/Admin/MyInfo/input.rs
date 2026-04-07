@@ -6,16 +6,16 @@
    <elementGuidId>b9b48dd2-0a62-4eac-b187-16ea03042c6d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[contains(@class,'oxd-autocomplete-text-input')]//input[@placeholder='Type for hints...']</value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div/input</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.oxd-autocomplete-text-input.oxd-autocomplete-text-input--focus > input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div/input</value>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'oxd-autocomplete-text-input')]//input[@placeholder='Type for hints...']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6c8cc5ee-be6c-4f04-be4f-a69673711315</webElementGuid>
+      <webElementGuid>f23d4cd8-785d-4fd6-b8cc-fb0a80fd8440</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Type for hints...</value>
-      <webElementGuid>092db610-04ae-4424-9357-53de7050cc04</webElementGuid>
+      <webElementGuid>2c3f4e9c-5329-481a-b207-2596bb0fbe0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,30 +43,14 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//div[contains(@class,'oxd-autocomplete-text-input')]//input[@placeholder='Type for hints...']</value>
-      <webElementGuid>6851e0a9-0ccf-4bfb-83a9-d2a09e951cb1</webElementGuid>
+      <webElementGuid>71d40b28-9682-404f-9763-d9f5a02f78b4</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/div/div/input</value>
-      <webElementGuid>41e68981-58de-428c-94f0-df8f291cbdae</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/div[2]/div/div/input</value>
-      <webElementGuid>d35eadda-c29c-4601-af85-5c719277b624</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Type for hints...']</value>
-      <webElementGuid>16d3b8f6-57c5-4c2f-ba52-dd91d81ea28f</webElementGuid>
+      <webElementGuid>4b462603-6dc0-4b59-92a3-3382d308c0b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

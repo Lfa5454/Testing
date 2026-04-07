@@ -6,15 +6,18 @@
    <elementGuidId>28a6fe60-170b-48c4-8292-4c4e1a39a899</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[5]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Recruitment' or . = 'Recruitment')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d3009eaf-788b-4c8c-9676-37f7dfa6e898</webElementGuid>
+      <webElementGuid>db89b9a1-0bfb-44b4-bb2b-35fb07961b90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-main-menu-item</value>
-      <webElementGuid>216fb412-788d-46b3-b789-daba5a2e1b56</webElementGuid>
+      <webElementGuid>d21fad35-41e3-43f8-9293-89759ebce2a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/web/index.php/recruitment/viewRecruitmentModule</value>
-      <webElementGuid>5688d176-ff17-49d9-9be4-36d6bf690238</webElementGuid>
+      <webElementGuid>82c11afe-237a-40f5-9711-5178e37075de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,15 +50,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Recruitment</value>
-      <webElementGuid>c6811b11-18ef-4b0f-9d2e-3c24ef18c12a</webElementGuid>
+      <webElementGuid>2e6e7c39-def5-46de-8690-5d11ea02b63b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]</value>
-      <webElementGuid>f5a82f02-4fc2-49d0-b3c3-4332badfc646</webElementGuid>
+      <value>//span[@class='oxd-text oxd-text--span oxd-main-menu-item--name' and text()='Recruitment']</value>
+      <webElementGuid>3b14159e-72b4-4172-aff2-226d09ce2db7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[5]/a</value>
-      <webElementGuid>645a04ef-79ef-4a68-8f4f-462ed8cbac33</webElementGuid>
+      <webElementGuid>d97eb1be-4d22-4af0-a673-6ab90fe5b13c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +74,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/web/index.php/recruitment/viewRecruitmentModule')]</value>
-      <webElementGuid>eca71b40-1996-4a4b-ae93-3152ab5583b3</webElementGuid>
+      <webElementGuid>ac69f998-de4d-488e-a1ba-fd28f09bbee9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[5]/a</value>
-      <webElementGuid>79cf470f-d6eb-4e68-9984-9bf4e68e5ea8</webElementGuid>
+      <webElementGuid>b51d8c2a-aa4a-414e-ab04-46dc5d97010c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/web/index.php/recruitment/viewRecruitmentModule' and (text() = 'Recruitment' or . = 'Recruitment')]</value>
-      <webElementGuid>5af4b7cf-f72b-4d51-9037-b3f441cf2c46</webElementGuid>
+      <webElementGuid>67b8c566-4808-450d-8edf-99ac48e4a4e5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

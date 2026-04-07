@@ -6,15 +6,19 @@
    <elementGuidId>a16db69d-95e3-4752-9d8b-2cf4f9c5618a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[3]/div/div/div[2]/div/div/input</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.oxd-autocomplete-text-input.oxd-autocomplete-text-input--focus > input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[3]/div/div/div[2]/div/div/input</value>
+         <key>BASIC</key>
+         <value>//*[@placeholder = 'Type for hints...']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>70974c9d-f163-4f00-88f7-311780fbe73c</webElementGuid>
+      <webElementGuid>ada99151-e919-441a-947b-c78a198d4a15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +35,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Type for hints...</value>
-      <webElementGuid>aa9da503-f5ab-4899-8951-9cb15d0a6424</webElementGuid>
+      <webElementGuid>52ea6188-785c-45ef-8a91-d171ec027ddd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +43,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-grid-3 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-autocomplete-wrapper&quot;]/div[@class=&quot;oxd-autocomplete-text-input oxd-autocomplete-text-input--focus&quot;]/input[1]</value>
-      <webElementGuid>8d1ba285-68aa-4f39-84f6-e1f55c1f88f0</webElementGuid>
+      <webElementGuid>e9c31c18-bbb4-4efe-a1cf-ec0db7f60ca2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[3]/div/div/div[2]/div/div/input</value>
-      <webElementGuid>cf37c40c-e49e-4259-9f38-a7564955ad3d</webElementGuid>
+      <webElementGuid>cedeb090-7a5e-484d-92fc-9a15c7455682</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/div/input</value>
-      <webElementGuid>acdd5f3e-cd68-4a91-ab71-2bee88314a61</webElementGuid>
+      <webElementGuid>1aaccfcc-953b-40f5-acb3-39584b50590e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +67,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Type for hints...']</value>
-      <webElementGuid>c21efef1-5331-4fac-9553-8ce0b61d90fc</webElementGuid>
+      <webElementGuid>687c49c6-8420-4e48-805b-ce730b8b6d55</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

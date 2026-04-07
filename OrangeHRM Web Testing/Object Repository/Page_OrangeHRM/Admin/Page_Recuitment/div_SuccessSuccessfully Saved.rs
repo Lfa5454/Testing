@@ -6,15 +6,19 @@
    <elementGuidId>20b8d72e-ceae-4048-ae25-5c28fbf6a00d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.oxd-toast.oxd-toast--success.oxd-toast-container--toast</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='oxd-toaster_1']/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[contains(@class,'oxd-text--toast-message') and normalize-space(text())='Successfully Saved']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.oxd-toast.oxd-toast--success.oxd-toast-container--toast</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b916f636-82f1-40c1-958a-5d5aa3955380</webElementGuid>
+      <webElementGuid>b9d5513d-54c1-41c3-81d6-9bc8b3251300</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-toast oxd-toast--success oxd-toast-container--toast</value>
-      <webElementGuid>44d5a16b-84dd-491b-a218-3aef03d3bdf5</webElementGuid>
+      <webElementGuid>f85f8540-ffe4-4887-aaf4-fad3f2e1399e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,23 +43,23 @@
       <name>aria-live</name>
       <type>Main</type>
       <value>assertive</value>
-      <webElementGuid>9ae95f86-65cf-4046-b06b-aee2db29df59</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>SuccessSuccessfully Saved×</value>
-      <webElementGuid>81795e99-34b7-45ae-a3f5-c5a9acf54232</webElementGuid>
+      <webElementGuid>9585a7cf-aa4c-4e25-b296-18cf187a1331</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SuccessSuccessfully Saved×</value>
+      <webElementGuid>c56f4d06-7c07-4ef0-8c86-583c1402f575</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;oxd-toaster_1&quot;)/div[@class=&quot;oxd-toast oxd-toast--success oxd-toast-container--toast&quot;]</value>
-      <webElementGuid>9e221efb-ff3c-4198-863c-e34423388801</webElementGuid>
+      <value>//p[contains(@class,'oxd-text--toast-message') and normalize-space(text())='Successfully Saved']</value>
+      <webElementGuid>f344d9e9-9bdb-436a-a07b-859d9cd5db73</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='oxd-toaster_1']/div</value>
-      <webElementGuid>8dc1ccaa-c8b5-4417-bb0f-f81724e2f308</webElementGuid>
+      <webElementGuid>85bf7d4b-724c-4f87-bd57-31947e3ff2d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/following::div[2]</value>
-      <webElementGuid>4d3d2989-cbf7-4168-8e9d-8970e4f8e6d3</webElementGuid>
+      <webElementGuid>3ffc4db0-7904-48e5-bf11-e01be27ec01d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div</value>
-      <webElementGuid>b0b8ed0d-8055-409e-8408-d1c6b96e6aca</webElementGuid>
+      <webElementGuid>1a29d5fd-7104-4921-a405-118c17d135de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +91,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'SuccessSuccessfully Saved×' or . = 'SuccessSuccessfully Saved×')]</value>
-      <webElementGuid>d1737c3b-0e36-4090-af05-fc267ea56636</webElementGuid>
+      <webElementGuid>06368013-43cb-41b4-b6a8-8b0d323d3f74</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

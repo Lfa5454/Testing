@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-02-Vacancy-fillingVacancy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c999a062-44ba-4d36-975c-8a705c9509d8</testCaseGuid>
+</TestCaseEntity>

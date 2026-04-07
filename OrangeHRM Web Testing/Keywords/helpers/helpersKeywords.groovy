@@ -37,7 +37,13 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 
 class helpersKeywords {
-	/**
+
+	// Success validations
+	TestObject notificationUpdate = findTestObject('Page_OrangeHRM/PIM/Edit/popupNotification_SuccessfullyUpdated')
+	TestObject notificationSaved = findTestObject('Page_OrangeHRM/PIM/Add/popupNotification_SuccessfullySaved')
+
+
+	/*
 	 * Refresh browser
 	 */
 	@Keyword
@@ -397,17 +403,17 @@ class helpersKeywords {
 	 */
 	@Keyword
 	def setInputByXpath(TestObject inputField, String value) {
-    WebUI.waitForElementClickable(inputField, 10)
+		WebUI.waitForElementClickable(inputField, 10)
 
-    WebUI.click(inputField)
-    WebUI.sendKeys(inputField, Keys.chord(Keys.CONTROL, "a"))
-    WebUI.sendKeys(inputField, Keys.chord(Keys.DELETE))
+		WebUI.click(inputField)
+		WebUI.sendKeys(inputField, Keys.chord(Keys.CONTROL, "a"))
+		WebUI.sendKeys(inputField, Keys.chord(Keys.DELETE))
 
-    WebUI.setText(inputField, value)
+		WebUI.setText(inputField, value)
 
-    String actualValue = WebUI.getAttribute(inputField, "value")
-    WebUI.verifyMatch(actualValue, value, false)
-}
+		String actualValue = WebUI.getAttribute(inputField, "value")
+		WebUI.verifyMatch(actualValue, value, false)
+	}
 
 	/**
 	 * Keyword to select an employee from a search input
@@ -434,4 +440,79 @@ class helpersKeywords {
 		String actualValue = WebUI.getAttribute(employeeInput, "value")
 		WebUI.verifyMatch(actualValue, employeeName, false)
 	}
+	@Keyword
+	def verifyActiveCheckbox(TestObject activeCheckbox) {
+		// Wait until the checkbox is clickable
+		WebUI.waitForElementClickable(activeCheckbox, 10)
+
+		// Check if the checkbox is selected
+		boolean isChecked = WebUI.verifyElementChecked(activeCheckbox, 5, FailureHandling.OPTIONAL)
+
+		if (isChecked) {
+			KeywordUtil.logInfo("✅ Checkbox is ACTIVE")
+		} else {
+			KeywordUtil.logInfo("❌ Checkbox is INACTIVE")
+		}
+
+		return isChecked
+	}
+
+
+	@Keyword
+
+	def verifyNotification(String actionType) {
+		TestObject notificationObj
+		String expectedMessage
+
+		switch(actionType.toLowerCase()) {
+			case "update":
+				notificationObj = notificationUpdate
+				expectedMessage = "Successfully Updated"
+				break
+
+			case "save":
+				notificationObj = notificationSaved
+				expectedMessage = "Successfully Saved"
+				break
+
+			default:
+				KeywordUtil.markFailed("Unsupported action type: " + actionType)
+				return
+		}
+
+		// Wait for the notification to appear
+		//	WebUI.waitForElementVisible(notificationObj, 10)
+
+		// Get the actual message displayed
+		String actualMessage = WebUI.getText(notificationObj)
+		KeywordUtil.logInfo("Actual notification message: " + actualMessage)
+
+		// Validate the message
+		if (!actualMessage.contains(expectedMessage)) {
+			KeywordUtil.markFailed(
+					"Expected: '" + expectedMessage + "' but received: '" + actualMessage + "'"
+					)
+		} else {
+			KeywordUtil.logInfo("Notification verified successfully.")
+		}
+	}
+	
+	
+	@Keyword
+	def setDateInput(TestObject dateInput, String dateValue) {
+		// Esperar a que el campo sea clickeable
+		WebUI.waitForElementClickable(dateInput, 10)
+
+		// Click en el campo
+		WebUI.click(dateInput)
+
+		// Seleccionar todo y borrar
+		WebUI.sendKeys(dateInput, Keys.chord(Keys.CONTROL, "a"))
+		WebUI.sendKeys(dateInput, Keys.chord(Keys.DELETE))
+
+		// Escribir la nueva fecha
+		WebUI.setText(dateInput, dateValue)
+	}
+
+	
 }

@@ -6,15 +6,19 @@
    <elementGuidId>2f3be6eb-a036-4801-8865-14fb1eab760a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.oxd-button.oxd-button--medium.oxd-button--secondary.orangehrm-left-space</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'submit' and (text() = ' Save ' or . = ' Save ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.oxd-button.oxd-button--medium.oxd-button--secondary.orangehrm-left-space</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,15 +27,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4fde60b6-dfa9-469e-b8ee-d13d87076959</webElementGuid>
+      <webElementGuid>92ac4acf-c114-4430-8e14-7202b0a7d896</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>98147287-a02d-4f62-bb3a-2e65154f03ab</webElementGuid>
+      <webElementGuid>d40c9c3b-8c12-4ca6-80c7-f5fdf4375e97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,23 +43,23 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space</value>
-      <webElementGuid>40b5ebd2-19d6-40e7-a215-43a96dcbdcfc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value> Save </value>
-      <webElementGuid>a5f33ba4-c2bf-4442-81ab-9a6795b35ef9</webElementGuid>
+      <webElementGuid>db7825ce-3af2-4b82-9dde-333874833cb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Save </value>
+      <webElementGuid>1d68d89a-4787-414d-80d2-1a39036124ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-actions&quot;]/button[@class=&quot;oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space&quot;]</value>
-      <webElementGuid>a1c5add2-bf52-4ac6-b638-4166a5a6982b</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = ' Save ' or . = ' Save ')]</value>
+      <webElementGuid>82d0a0a2-021f-4d4d-a2e1-95525210f18d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>24883147-7a21-47c2-a5d2-933a085f681e</webElementGuid>
+      <webElementGuid>f933b986-a399-412f-895d-aab1d435bdad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[7]/button[2]</value>
-      <webElementGuid>cc6d59ac-0265-4924-a007-bc6c3f210cbf</webElementGuid>
+      <webElementGuid>b43def95-8a05-4d2b-b5ad-453b2bd4f344</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='https://opensource-demo.orangehrmlive.com/web/index.php/recruitmentApply/jobs.html'])[1]/following::button[2]</value>
-      <webElementGuid>f1ccf4ab-ed0c-4c82-835b-84f0f17b0032</webElementGuid>
+      <webElementGuid>88527ced-6946-412f-97ce-e3b82bd2d9e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/preceding::button[1]</value>
-      <webElementGuid>44b52953-452c-4c88-b7ec-ef3de0449be5</webElementGuid>
+      <webElementGuid>84e0e214-6db3-49f9-bda8-a9508815aff3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
-      <webElementGuid>32d62848-1c55-4010-bdfa-2ca38731574e</webElementGuid>
+      <webElementGuid>6b519e70-9478-4d96-9ff9-60ede8d094a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>9a4d69f1-7068-4685-8c44-8c944234258b</webElementGuid>
+      <webElementGuid>33f6a0fd-63c3-4659-8161-1fe529d52556</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = ' Save ' or . = ' Save ')]</value>
-      <webElementGuid>68789db6-417e-4851-a52f-453b9e936452</webElementGuid>
+      <webElementGuid>1e5a2e8e-2ded-4920-aeb0-c6b8534e5ea5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

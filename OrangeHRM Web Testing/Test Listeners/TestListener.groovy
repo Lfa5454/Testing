@@ -7,6 +7,7 @@ import com.kms.katalon.core.context.TestSuiteContext
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.configuration.RunConfiguration
 
 // ✅ Selenium WebDriver cookie handling
 import org.openqa.selenium.Cookie
@@ -23,6 +24,8 @@ import login.LoginKeywords
 import internal.GlobalVariable
 
 class TestListener {
+	// Single path for cookies
+	static final String COOKIE_PATH = RunConfiguration.getProjectDir() + "/Data/cookies/cookies.json"
 
 	// ============================
 	// 🔹 Before Suite: open browser and load cookies
@@ -35,7 +38,7 @@ class TestListener {
 		}
 
 		def driver = DriverFactory.getWebDriver()
-		def cookieFile = new File("C:/ruta/cookies.json")
+		def cookieFile = new File(COOKIE_PATH)
 		if (cookieFile.exists()) {
 			def jsonSlurper = new JsonSlurper()
 			def cookies = jsonSlurper.parse(cookieFile)
@@ -46,7 +49,6 @@ class TestListener {
 			}
 			driver.navigate().refresh() // refresh to apply cookies
 		}
-		
 	}
 
 	// ============================
@@ -68,12 +70,12 @@ class TestListener {
 					isSecure: c.isSecure()
 				]
 			}
-			new File("Cookies.json").text = JsonOutput.toJson(cookieList)
-			KeywordUtil.logInfo(">>> Cookies saved to Cookies.json")
-		}
+			def cookieFile = new File(COOKIE_PATH)
+			cookieFile.parentFile.mkdirs() // create folder if missing
+			cookieFile.text = JsonOutput.toJson(cookieList)
 
-		// Stop the entire suite execution immediately on any failure
-		KeywordUtil.markFailedAndStop("A test case failed, stopping suite execution.")
+			KeywordUtil.logInfo(">>> Cookies saved to ${COOKIE_PATH}")
+		}
 	}
 
 	// ============================
@@ -87,6 +89,8 @@ class TestListener {
 			// Take screenshot
 			String screenshotPath = WebUI.takeScreenshot()
 			KeywordUtil.logInfo(">>> Screenshot saved at: " + screenshotPath)
+			// Stop the entire suite execution immediately on any failure
+			KeywordUtil.markFailedAndStop("A test case failed, stopping suite execution.")
 		}
 	}
 }

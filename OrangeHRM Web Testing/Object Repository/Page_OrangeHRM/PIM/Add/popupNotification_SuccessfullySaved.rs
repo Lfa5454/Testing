@@ -10,11 +10,15 @@
          <value>//div[@id='oxd-toaster_1']/div/div/div[2]/p[2]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//p[contains(@class,'oxd-toast-message') and text()='Successfully Saved</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>p.oxd-text.oxd-text--p.oxd-text--toast-message.oxd-toast-content-text</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>0dee7ee0-455e-48bc-9ba0-d343adc2d517</webElementGuid>
+      <webElementGuid>7352f4a1-c1a4-4a0a-869d-bb1b19130552</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,23 +41,23 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text</value>
-      <webElementGuid>86974ecf-d9dd-4de7-89cf-eee3a32c59d5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Successfully Saved</value>
-      <webElementGuid>327097b6-1e05-4ada-afb5-c4c59c0f32d6</webElementGuid>
+      <webElementGuid>b63f332c-78ef-4a4e-a7f3-69d9949e0fdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Successfully Saved</value>
+      <webElementGuid>21b40850-6f7c-48cc-8a7b-3cc45f19f89f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;oxd-toaster_1&quot;)/div[@class=&quot;oxd-toast oxd-toast--success oxd-toast-container--toast&quot;]/div[@class=&quot;oxd-toast-start&quot;]/div[@class=&quot;oxd-toast-content oxd-toast-content--success&quot;]/p[@class=&quot;oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text&quot;]</value>
-      <webElementGuid>1a50f6e2-8526-4678-aef4-1c01628df1f3</webElementGuid>
+      <value>//p[contains(@class,'oxd-toast-message') and text()='Successfully Saved</value>
+      <webElementGuid>588ca28f-4d9c-449a-b0d1-053f158d87de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='oxd-toaster_1']/div/div/div[2]/p[2]</value>
-      <webElementGuid>07d9bce8-f179-41e3-824a-ac619ce1ea8a</webElementGuid>
+      <webElementGuid>ccc5478f-50c1-473e-bcf5-43be73e919e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/following::p[2]</value>
-      <webElementGuid>755d8cc0-4466-4e38-826f-3b2840be86f7</webElementGuid>
+      <webElementGuid>f364ea35-0343-426c-a8d8-9051c346b7b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::p[1]</value>
-      <webElementGuid>1dc339ab-b61e-4b03-8da1-49ead9a08b8c</webElementGuid>
+      <webElementGuid>2f0e7337-7591-42d6-9cad-d26360683321</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Successfully Saved']/parent::*</value>
-      <webElementGuid>e694a614-6ddb-445e-a553-97c925d33aaf</webElementGuid>
+      <webElementGuid>590925b6-d9dc-4b17-9bb3-8f852c97a2b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/p[2]</value>
-      <webElementGuid>89f4be8a-7aaa-4a12-9520-ba061e834aee</webElementGuid>
+      <webElementGuid>d612cf52-b2a5-4a2e-a81a-efb1d5806c1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Successfully Saved' or . = 'Successfully Saved')]</value>
-      <webElementGuid>226069cd-8d62-4d41-9cf8-9ef05592f446</webElementGuid>
+      <webElementGuid>4095574d-aa1a-4bd7-8e5a-f25266aa9d77</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

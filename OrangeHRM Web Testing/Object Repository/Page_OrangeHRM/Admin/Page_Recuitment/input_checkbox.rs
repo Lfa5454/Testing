@@ -6,15 +6,19 @@
    <elementGuidId>9523828b-9444-4f5f-8fd9-0ff1f636ed8a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[type=&quot;checkbox&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@type='checkbox']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[text()='Active']/following::input[@type='checkbox'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[type=&quot;checkbox&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,23 +27,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ad1a9505-0d76-4067-8211-703c05725a8f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>checkbox</value>
-      <webElementGuid>55c24397-7923-4a56-8491-b7b2cbc7561a</webElementGuid>
+      <webElementGuid>9e713783-77ab-42bc-80de-370c0cc95a9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>772ee99c-6ec5-40c9-8363-5ea8e85f0c57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-grid-3 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters orangerhrm-switch-wrapper&quot;]/div[@class=&quot;oxd-switch-wrapper&quot;]/label[1]/input[1]</value>
-      <webElementGuid>3d0ab08b-225c-4eb6-a1b1-00a070e8ac20</webElementGuid>
+      <value>//p[text()='Active']/following::input[@type='checkbox'][1]</value>
+      <webElementGuid>1265ae08-44eb-4178-b7fe-0885030ba0e0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='checkbox']</value>
-      <webElementGuid>5548b0c1-57bf-44f0-9b9f-f6f5e80a3b3f</webElementGuid>
+      <webElementGuid>c885b2e7-4de3-4658-b792-e2ed956ca74c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[4]/div/div/label/input</value>
-      <webElementGuid>1f743011-8fc6-43f1-908f-da9d6f2fa0de</webElementGuid>
+      <webElementGuid>2cabad24-abc4-4d9d-ae33-8ef71bada8be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/input</value>
-      <webElementGuid>0ba1fad0-2c0e-49fd-b48a-7174e16bd2ce</webElementGuid>
+      <webElementGuid>9d606ce7-eea1-4833-b977-2d81bd58eafd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +75,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox']</value>
-      <webElementGuid>abbf6d87-40e9-41d1-9fc6-36f3cf15be03</webElementGuid>
+      <webElementGuid>edc2073a-122f-480f-b22d-f6936229ca93</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

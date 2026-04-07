@@ -15,21 +15,21 @@
       <guid>06d5e51d-20b3-44dc-9dd5-f63c047edc1c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Orange_/E2E-01/Step_3_ESS_SelfServiceSession/TC-01-LoginWithUsernameCreated</testCaseId>
+      <testCaseId>Test Cases/Orange_HRM/E2E-01/Step_3_ESS_SelfServiceSession/TC-01-LoginWithUsernameCreated</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>2356ab0a-b705-48b5-bc9a-014c7b6c68d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Orange_/E2E-01/Step_3_ESS_SelfServiceSession/TC-02-MyInfo-MaritalStatus</testCaseId>
+      <testCaseId>Test Cases/Orange_HRM/E2E-01/Step_3_ESS_SelfServiceSession/TC-02-MyInfo-MaritalStatus</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>33c6e802-ce53-41a4-80be-b6fe5dace55a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Orange_/E2E-01/Step_3_ESS_SelfServiceSession/TC-03-MyInfo-ContactDetails</testCaseId>
+      <testCaseId>Test Cases/Orange_HRM/E2E-01/Step_3_ESS_SelfServiceSession/TC-03-MyInfo-ContactDetails</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

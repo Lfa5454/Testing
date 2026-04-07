@@ -15,14 +15,14 @@
       <guid>7613cb34-e16a-42d0-a776-2ae08e38864e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Orange_/E2E-01/Step_5_DashboardConsistencyCheck/TC-01-EmployeesOnLeaveToday</testCaseId>
+      <testCaseId>Test Cases/Orange_HRM/E2E-01/Step_5_DashboardConsistencyCheck/TC-01-EmployeesOnLeaveToday</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>ff171a32-eb4b-4951-a08c-446fc2ab609e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Orange_/E2E-01/Step_5_DashboardConsistencyCheck/TC-02-ASSERTWidgetDataMatchesLeaveModule</testCaseId>
+      <testCaseId>Test Cases/Orange_HRM/E2E-01/Step_5_DashboardConsistencyCheck/TC-02-ASSERTWidgetDataMatchesLeaveModule</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
