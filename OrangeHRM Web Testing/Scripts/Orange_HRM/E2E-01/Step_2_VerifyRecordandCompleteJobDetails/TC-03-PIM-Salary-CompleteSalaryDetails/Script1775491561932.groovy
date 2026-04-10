@@ -51,7 +51,7 @@ searchEmployeeAndEdit.selectOption("payfrequency",GlobalVariable.payFrequency)
 searchEmployeeAndEdit.selectOption("currency",GlobalVariable.currency)
 
 // 10. Enter salary amount
-searchEmployeeAndEdit.selectOption("amount",GlobalVariable.amount)
+searchEmployeeAndEdit.selectOption("amount",GlobalVariable.salaryAmount)
 
 // 11. Save salary record
 searchEmployeeAndEdit.clickButton("save")

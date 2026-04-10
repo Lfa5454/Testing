@@ -19,11 +19,11 @@ import pages.DashboardPage
 
 import org.openqa.selenium.Keys as Keys
 
-//CustomKeywords.'login.LoginKeywords.login'(GlobalVariable.adminUsername, GlobalVariable.adminPass)
+//CustomKeywords.'login.LoginKeywords.login'(GlobalVariable.adminUsername, GlobalVariable.adminPassword)
 // Create instance of the page class
 DashboardPage dashboard = new DashboardPage()
 
 // Call  methods
-dashboard.assertDataMatches(GlobalVariable.employeeName, GlobalVariable.employeeLastName)
+dashboard.assertDataMatches(GlobalVariable.employeeFirstName, GlobalVariable.employeeLastName)
 
 

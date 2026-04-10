@@ -21,14 +21,14 @@ import pim.AddEmployeePage
 // ========== Pre-Condition ==========
 CustomKeywords.'login.LoginKeywords.loginToOrangeHRMIncognito'(
 	GlobalVariable.adminUsername,
-	GlobalVariable.adminPass
+	GlobalVariable.adminPassword
 )
 // ========== Object References ==========
 AddEmployeePage addEmployee = new AddEmployeePage()
 // ============ Test Steps ===========
 // adding Employee 
 addEmployee.openForm()
-addEmployee.fillEmployeeData(GlobalVariable.employeeName, GlobalVariable.employeeLastName)
+addEmployee.fillEmployeeData(GlobalVariable.employeeFirstName, GlobalVariable.employeeLastName)
 
 
 // set Employee ID

@@ -6,53 +6,53 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Valeria'</initValue>
-      <name>employeeName</name>
+      <initValue>''</initValue>
+      <name>employeeFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Ramirez'</initValue>
+      <initValue>''</initValue>
       <name>employeeLastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>employeeID</name>
+      <name>employeeId</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'vramirez'</initValue>
-      <name>username</name>
+      <initValue>''</initValue>
+      <name>employeeUsername</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Password for login</description>
       <initValue>'1Hndv58yRV1ZL+HRqbNaoA=='</initValue>
-      <name>pass</name>
+      <name>employeePassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Admin'</initValue>
+      <initValue>''</initValue>
       <name>adminUsername</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>password for login, with admin</description>
       <initValue>'hUKwJTbofgPU9eVlw/CnDQ=='</initValue>
-      <name>adminPass</name>
+      <name>adminPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2020-01-01'</initValue>
-      <name>joinedDate</name>
+      <initValue>''</initValue>
+      <name>joinDate</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'chrome'</initValue>
+      <initValue>''</initValue>
       <name>browserType</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>true</initValue>
-      <name>incognito</name>
+      <initValue>false</initValue>
+      <name>isIncognito</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -61,33 +61,33 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Craft Workers'</initValue>
+      <initValue>''</initValue>
       <name>jobCategory</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'QA Engineer'</initValue>
+      <initValue>''</initValue>
       <name>jobTitle</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Grade 2'</initValue>
+      <initValue>''</initValue>
       <name>payGrade</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bi Weekly'</initValue>
+      <initValue>''</initValue>
       <name>payFrequency</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'United States Dollar'</initValue>
+      <initValue>''</initValue>
       <name>currency</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'44000'</initValue>
-      <name>amount</name>
+      <initValue>''</initValue>
+      <name>salaryAmount</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -96,17 +96,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2026-03-30'</initValue>
-      <name>leave_FromDate</name>
+      <initValue>''</initValue>
+      <name>leaveFromDate</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2026-03-31'</initValue>
-      <name>leave_ToDate</name>
+      <initValue>''</initValue>
+      <name>leaveToDate</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\\\Users\\\\lfajardo\\\\OrangeHRM-Web-Automation-Testing-using-Katalon-Studio\\\\OrangeHRM Web Testing\\\\Data Files\\\\DLopez_QA_Resume.pdf'</initValue>
+      <initValue>''</initValue>
       <name>resumePath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>baseUrl</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

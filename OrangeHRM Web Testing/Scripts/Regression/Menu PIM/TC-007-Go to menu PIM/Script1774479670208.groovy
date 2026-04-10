@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 // ========== Pre-Condition ==========
 
-CustomKeywords.'login.LoginKeywords.loginToOrangeHRM'(GlobalVariable.adminUsername, GlobalVariable.adminPass)
+CustomKeywords.'login.LoginKeywords.loginToOrangeHRM'(GlobalVariable.adminUsername, GlobalVariable.adminPassword)
 
 // ============ Test Steps ===========
 // Click the PIM button on the left sidebar menu

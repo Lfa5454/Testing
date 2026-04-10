@@ -22,7 +22,7 @@ import pages.Leave_AssignLeave
 
 //4.1  Switch back to HR Admin session → Leave → Assign Leave.
 // ========== Pre-Condition ==========
-//CustomKeywords.'login.LoginKeywords.login'(GlobalVariable.adminUsername, GlobalVariable.adminPass)
+//CustomKeywords.'login.LoginKeywords.login'(GlobalVariable.adminUsername, GlobalVariable.adminPassword)
 		
 // ========== Object References ==========
 Leave_AssignLeave leave_AssignLeave = new Leave_AssignLeave()

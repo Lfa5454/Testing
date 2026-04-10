@@ -8,7 +8,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 // ========== Pre-Condition ==========
 CustomKeywords.'login.LoginKeywords.loginToOrangeHRMIncognito'(
 	GlobalVariable.adminUsername,
-	GlobalVariable.adminPass
+	GlobalVariable.adminPassword
 )
 
 // ========== Object Repository References ==========
@@ -32,7 +32,7 @@ CustomKeywords.'helpers.helpersKeywords.searchEmployeeByCriteria'(
     statusDropdown,      // statusDropdown
 	usernameInput,        // usernameInput
 	searchButton,		// searchButton
-    GlobalVariable.employeeName,   // firstName
+    GlobalVariable.employeeFirstName,   // firstName
     '',                  // lastName
     '',                  // employeeId
     '',                  // status
@@ -50,13 +50,13 @@ CustomKeywords.'helpers.helpersKeywords.searchEmployeeByCriteria'(
 	employeeIdInput,
 	statusDropdown,
 	searchButton,
-	GlobalVariable.employeeName,
+	GlobalVariable.employeeFirstName,
 	GlobalVariable.employeeLastName,
 	'',   // optional employeeId
 	''    // optional status
 )
 
-TestObject empObj = CustomKeywords.'helpers.helpersKeywords.validateEmployeeId'(GlobalVariable.employeeName)
+TestObject empObj = CustomKeywords.'helpers.helpersKeywords.validateEmployeeId'(GlobalVariable.employeeFirstName)
 WebUI.waitForElementClickable(empObj, 10)
 WebUI.click(empObj)
 
@@ -67,8 +67,8 @@ WebUI.click(jobTab)
 // 4. Set Joined Date
 WebUI.waitForElementClickable(joinedDateInput, 10)
 WebUI.clearText(joinedDateInput)
-WebUI.setText(joinedDateInput, GlobalVariable.joinedDate)
-WebUI.verifyMatch(WebUI.getAttribute(joinedDateInput, 'value'), GlobalVariable.joinedDate, false)
+WebUI.setText(joinedDateInput, GlobalVariable.joinDate)
+WebUI.verifyMatch(WebUI.getAttribute(joinedDateInput, 'value'), GlobalVariable.joinDate, false)
 
 // 5. Select Job Title
 WebUI.waitForElementClickable(jobTitleInput, 10)

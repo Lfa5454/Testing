@@ -22,7 +22,7 @@ import pages.Leave_AssignLeave
 
 //4.1  Switch back to HR Admin session → Leave → Assign Leave.
 // ========== Pre-Condition ==========
-//CustomKeywords.'login.LoginKeywords.login'(GlobalVariable.adminUsername, GlobalVariable.adminPass)
+//CustomKeywords.'login.LoginKeywords.login'(GlobalVariable.adminUsername, GlobalVariable.adminPassword)
 		
 // ========== Object References ==========
 Leave_AssignLeave leave_AssignLeave = new Leave_AssignLeave()
@@ -31,10 +31,10 @@ Leave_AssignLeave leave_AssignLeave = new Leave_AssignLeave()
 
 
 
-leave_AssignLeave.performAction("selectemployee", [firstName:GlobalVariable.employeeName, lastName :GlobalVariable.employeeLastName])
+leave_AssignLeave.performAction("selectemployee", [firstName:GlobalVariable.employeeFirstName, lastName :GlobalVariable.employeeLastName] )
 //leave_AssignLeave.performAction("selectemployee", [name:"a"])
 leave_AssignLeave.performAction("leavetype", [:], "CAN - Bereavement")
-leave_AssignLeave.setDates(GlobalVariable.leave_FromDate, GlobalVariable.leave_ToDate)
+leave_AssignLeave.setDates(GlobalVariable.leaveFromDate, GlobalVariable.leaveToDate)
 leave_AssignLeave.performAction("assignleave")
 leave_AssignLeave.clickButton("ok")
 

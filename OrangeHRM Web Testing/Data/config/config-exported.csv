@@ -1,0 +1,26 @@
+key,value
+employeeFirstName,Valeria
+employeeLastName,Ramirez
+employeeId,
+employeeUsername,vramirez
+,
+adminUsername,Admin
+joinDate,2020-01-01
+,
+browserType,chrome
+isIncognito,TRUE
+isLoggedIn,FALSE
+loginDone,FALSE
+,
+jobCategory,Craft Workers
+jobTitle,QA Engineer
+payGrade,Grade 2
+payFrequency,Bi Weekly
+currency,United States Dollar
+salaryAmount,44000
+,
+leaveFromDate,2026-11-03
+leaveToDate,2026-12-03
+,
+resumePath,C:\Users\lfajardo\Katalon Studio\OrangeHRM-Web-Automation-Testing-using-Katalon-Studio\OrangeHRM Web Testing\Data Files\DLopez_QA_Resume.pdf
+baseUrl,https://opensource-demo.orangehrmlive.com

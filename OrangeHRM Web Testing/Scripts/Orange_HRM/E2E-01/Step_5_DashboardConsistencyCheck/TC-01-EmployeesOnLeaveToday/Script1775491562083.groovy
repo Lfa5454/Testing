@@ -19,13 +19,13 @@ import pages.DashboardPage
 
 import org.openqa.selenium.Keys as Keys
 
-//CustomKeywords.'login.LoginKeywords.login'(GlobalVariable.adminUsername, GlobalVariable.adminPass)
+//CustomKeywords.'login.LoginKeywords.login'(GlobalVariable.adminUsername, GlobalVariable.adminPassword)
 // Create instance of the page class
 DashboardPage dashboard = new DashboardPage()
 
 // Call reusable methods
 dashboard.openDashboardMenu()
 dashboard.verifyToDashboardUrl()
-dashboard.employeesOnLeaveCard(GlobalVariable.employeeName, GlobalVariable.employeeLastName)
+dashboard.employeesOnLeaveCard(GlobalVariable.employeeFirstName, GlobalVariable.employeeLastName)
 
 

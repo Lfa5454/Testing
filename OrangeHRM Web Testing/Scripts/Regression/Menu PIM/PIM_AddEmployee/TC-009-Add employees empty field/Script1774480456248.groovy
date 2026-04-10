@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 // ========== Pre-Condition ==========
-CustomKeywords.'login.LoginKeywords.loginToOrangeHRM'(GlobalVariable.adminUsername, GlobalVariable.adminPass)
+CustomKeywords.'login.LoginKeywords.loginToOrangeHRM'(GlobalVariable.adminUsername, GlobalVariable.adminPassword)
 
 // ========== Object References ==========
 TestObject menuPIM = findTestObject('Object Repository/Page_OrangeHRM/PIM/Common/menu_PIM')

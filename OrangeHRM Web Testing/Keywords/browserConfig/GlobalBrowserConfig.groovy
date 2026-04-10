@@ -26,7 +26,7 @@ class GlobalBrowserConfig {
     static WebDriver getDriver() {
         WebDriver driver
         String browserTypeSelected = (GlobalVariable.browserType ?: "chrome").toLowerCase()
-        boolean incognito = GlobalVariable.incognito ?: false
+        boolean incognito = GlobalVariable.isIncognito ?: false
 
         switch (browserTypeSelected) {
             case "chrome":

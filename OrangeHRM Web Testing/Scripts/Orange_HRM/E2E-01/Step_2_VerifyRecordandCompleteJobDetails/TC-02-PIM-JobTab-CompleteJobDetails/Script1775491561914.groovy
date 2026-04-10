@@ -18,7 +18,7 @@ PIM_SearchEmployeeAndEdit searchEmployeeAndEdit = new PIM_SearchEmployeeAndEdit(
 searchEmployeeAndEdit.openMenu("job")
 
 // 4. Set Joined Date
-searchEmployeeAndEdit.setJoinedDate(GlobalVariable.joinedDate) 
+searchEmployeeAndEdit.setJoinedDate(GlobalVariable.joinDate) 
 
 // 5. Select Job Title
 searchEmployeeAndEdit.selectOption("jobtitle",GlobalVariable.jobTitle)

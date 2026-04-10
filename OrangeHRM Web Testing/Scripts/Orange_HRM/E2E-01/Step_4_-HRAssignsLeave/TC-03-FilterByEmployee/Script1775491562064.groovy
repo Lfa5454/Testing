@@ -26,13 +26,13 @@ Leave_AssignLeave leave_AssignLeave = new Leave_AssignLeave()
 leave_AssignLeave.performAction('leavemenu')
 
 //leave_AssignLeave.performAction('searchleavelist')
-leave_AssignLeave.SearchOption('employeename', [('firstName') : GlobalVariable.employeeName, ('lastName') : GlobalVariable.employeeLastName])
+leave_AssignLeave.SearchOption('employeename', [('firstName') : GlobalVariable.employeeFirstName, ('lastName') : GlobalVariable.employeeLastName])
 
-leave_AssignLeave.setDates(GlobalVariable.leave_FromDate, GlobalVariable.leave_ToDate)
+leave_AssignLeave.setDates(GlobalVariable.leaveFromDate, GlobalVariable.leaveToDate)
 
 leave_AssignLeave.SearchOption("showleavetaken", [:], "Taken")
 //leave_AssignLeave.SearchOption("showleavescheduled")
 leave_AssignLeave.clickButton('search')
 
 ////// Validation
-leave_AssignLeave.EmployeeResult(GlobalVariable.employeeName, GlobalVariable.employeeLastName, '2')
+leave_AssignLeave.EmployeeResult(GlobalVariable.employeeFirstName, GlobalVariable.employeeLastName, '2')

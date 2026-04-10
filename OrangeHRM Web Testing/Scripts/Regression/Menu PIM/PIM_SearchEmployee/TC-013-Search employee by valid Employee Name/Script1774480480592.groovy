@@ -21,7 +21,7 @@ import org.openqa.selenium.Keys as Keys
 // ========== Pre-Condition ==========
 CustomKeywords.'login.LoginKeywords.loginToOrangeHRMIncognito'(
     GlobalVariable.adminUsername, 
-    GlobalVariable.adminPass
+    GlobalVariable.adminPassword
 )
 
 // ========== Object Repository References ==========
@@ -42,7 +42,7 @@ CustomKeywords.'helpers.helpersKeywords.searchEmployeeByCriteria'(
     statusDropdown,      // statusDropdown
 	usernameInput,        // usernameInput
 	searchButton,		// searchButton
-    GlobalVariable.employeeName,   // firstName
+    GlobalVariable.employeeFirstName,   // firstName
     '',                  // lastName
     '',                  // employeeId
     '',                  // status
@@ -54,5 +54,5 @@ CustomKeywords.'helpers.helpersKeywords.searchEmployeeByCriteria'(
 CustomKeywords.'helpers.helpersKeywords.verifyRecords'()
 
 // Verify the Employee Name and Last Name appear in the list
-CustomKeywords.'helpers.helpersKeywords.validateEmployeeId'(GlobalVariable.employeeName)
+CustomKeywords.'helpers.helpersKeywords.validateEmployeeId'(GlobalVariable.employeeFirstName)
 CustomKeywords.'helpers.helpersKeywords.validateEmployeeId'(GlobalVariable.employeeLastName)

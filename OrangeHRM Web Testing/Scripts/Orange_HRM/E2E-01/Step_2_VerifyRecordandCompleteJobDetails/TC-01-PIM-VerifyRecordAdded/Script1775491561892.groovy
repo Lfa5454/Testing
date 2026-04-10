@@ -19,11 +19,11 @@ PIM_SearchEmployeeAndEdit searchEmployeeAndEdit = new PIM_SearchEmployeeAndEdit(
 searchEmployeeAndEdit.openMenu("pim")
 
 // 2. Search employee
-searchEmployeeAndEdit.searchEmployee(GlobalVariable.employeeName, GlobalVariable.employeeLastName, '', '', '')
+searchEmployeeAndEdit.searchEmployee(GlobalVariable.employeeFirstName, GlobalVariable.employeeLastName, '', '', '')
 //3 Validate employee
 
 boolean recordsExist = CustomKeywords.'helpers.helpersKeywords.verifyRecords'()
-if (recordsExist==true) {searchEmployeeAndEdit.validateInputValue(GlobalVariable.employeeName)
+if (recordsExist==true) {searchEmployeeAndEdit.validateInputValue(GlobalVariable.employeeFirstName)
 if (!recordsExist) {
 	KeywordUtil.markFailed("No records found, step stoped.")
 }

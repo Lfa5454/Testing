@@ -125,7 +125,7 @@ public class PIM_SearchEmployeeAndEdit {
 		// Direct instantiation
 		new helpersKeywords().verifyUniqueUsername(
 				usernameDisplayed,
-				GlobalVariable.username
+				GlobalVariable.employeeUsername
 				)
 	}
 	def verifyUniqueFullName(String employeeId, String firstName, String lastName) {

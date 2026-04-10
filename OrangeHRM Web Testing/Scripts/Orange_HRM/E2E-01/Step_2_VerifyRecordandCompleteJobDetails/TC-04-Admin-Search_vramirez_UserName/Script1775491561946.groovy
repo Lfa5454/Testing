@@ -26,7 +26,7 @@ import pages.PIM_SearchEmployeeAndEdit
 //2.4  Admin → User Management → Users → search 'vramirez'.
 
 // ========== Pre-Condition ==========
-// CustomKeywords.'login.LoginKeywords.loginToOrangeHRM'(GlobalVariable.adminUsername,	GlobalVariable.adminPass)
+// CustomKeywords.'login.LoginKeywords.loginToOrangeHRM'(GlobalVariable.adminUsername,	GlobalVariable.adminPassword)
 // ========== Object References ==========
 PIM_SearchEmployeeAndEdit searchEmployeeAndEdit = new PIM_SearchEmployeeAndEdit()
 
@@ -36,14 +36,14 @@ PIM_SearchEmployeeAndEdit searchEmployeeAndEdit = new PIM_SearchEmployeeAndEdit(
 searchEmployeeAndEdit.openMenu("admin")
 
 // 2. Search employee
-searchEmployeeAndEdit.searchEmployee('', '', '', '', GlobalVariable.username)
+searchEmployeeAndEdit.searchEmployee('', '', '', '', GlobalVariable.employeeUsername)
 
 CustomKeywords.'helpers.helpersKeywords.verifyRecords'()
 
 
 // 3 Validate employee
 boolean recordsExist = CustomKeywords.'helpers.helpersKeywords.verifyRecords'()
-if (recordsExist==true) {searchEmployeeAndEdit.validateInputValue(GlobalVariable.username)
+if (recordsExist==true) {searchEmployeeAndEdit.validateInputValue(GlobalVariable.employeeUsername)
 
 }
 if (!recordsExist) {

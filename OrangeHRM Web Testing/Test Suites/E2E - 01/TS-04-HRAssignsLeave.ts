@@ -18,4 +18,18 @@
       <testCaseId>Test Cases/Orange_HRM/E2E-01/Step_4_-HRAssignsLeave/TC-01-AssignLeavePage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ae3f36ff-dfd0-4eed-8c44-e537bb24dc81</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Orange_HRM/E2E-01/Step_4_-HRAssignsLeave/TC-02-AssignLeave</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4eb25960-8662-44cf-b408-0fc3d8998bf5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Orange_HRM/E2E-01/Step_4_-HRAssignsLeave/TC-03-FilterByEmployee</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -1,34 +1,44 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-import pages.PIM_SearchEmployeeAndEdit
+/**
+ * =====================================================
+ * Test Case : 3.4  Advance → Offer; generate offer from 'Standard Offer' template; Save.
+ * Module    : Recruitment
+ * Purpose   : Validate that a job offer can be sent to a candidate
+ *
+ * Preconditions:
+ * - Interview has been passed
+ * - Candidate detail page is open
+ *
+ * Author    : Liliana Fajardo
+ * Created   : 2026-04-09
+ * =====================================================
+ */
 
 import pages.RecruitmentPage
-import helpers.helpersKeywords
+import enums.ButtonAction
 
-// ========== Object References ==========
-PIM_SearchEmployeeAndEdit searchEmployeeAndEdit = new PIM_SearchEmployeeAndEdit()
+// ==============================
+// Test Setup
+// ==============================
+
 RecruitmentPage recruitmentPage = new RecruitmentPage()
 
-recruitmentPage.clickButton("offerjob")
-recruitmentPage.selectOption("add_notes", "test_lili")
-recruitmentPage.clickButton("save")
+// ==============================
+// Test Steps
+// ==============================
 
-//// Validation
+// Step 1: Execute workflow action (Offer Job) and added note
+recruitmentPage.executeCandidateWorkflowActionAndSave(
+	ButtonAction.OFFER_JOB,
+	"Job offer approved"
+)
+
+// ==============================
+// Validation
+// ==============================
+
 recruitmentPage.assertCandidateStatus("Status: Job Offered")
+
+// ==============================
+// Expected Result
+// ==============================
+// ✅ Candidate status updated to Job Offered

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 // ========== Pre-Condition ==========
-CustomKeywords.'login.LoginKeywords.loginToOrangeHRM'(GlobalVariable.adminUsername, GlobalVariable.adminPass)
+CustomKeywords.'login.LoginKeywords.loginToOrangeHRM'(GlobalVariable.adminUsername, GlobalVariable.adminPassword)
 
 // ========== Object References ==========
 TestObject menuPIM = findTestObject('Object Repository/Page_OrangeHRM/PIM/Common/menu_PIM')
@@ -34,14 +34,14 @@ TestObject employeeIdError = findTestObject('Object Repository/Page_OrangeHRM/PI
 // adding Employee 
 WebUI.click(menuPIM)
 WebUI.click(addEmployeeBtn)
-WebUI.setText(firstNameInput, GlobalVariable.employeeName)
+WebUI.setText(firstNameInput, GlobalVariable.employeeFirstName)
 WebUI.setText(lastNameInput, GlobalVariable.employeeLastName)
 
 // Clean and set Employee ID
 WebUI.click(employeeIdInput)
 WebUI.sendKeys(employeeIdInput, Keys.chord(Keys.CONTROL, 'a'))
 WebUI.sendKeys(employeeIdInput, Keys.chord(Keys.BACK_SPACE))
-WebUI.setText(employeeIdInput, GlobalVariable.employeeID)
+WebUI.setText(employeeIdInput, GlobalVariable.employeeId)
 
 // Log that the user already exists
 CustomKeywords.'helpers.helpersKeywords.checkIfUserExists'(usernameAlreadyExistInput)

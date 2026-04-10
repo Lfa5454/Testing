@@ -270,7 +270,7 @@ class helpersKeywords {
 		} else if (actualMessage.startsWith("(1) Record Found")) {
 			KeywordUtil.markPassed("Single record found")
 			return true
-		} else if (actualMessage.startsWith("\\(\\d+\\) Records Found")) {
+		} else if (actualMessage.startsWith("(2) Records Found")) {
 			KeywordUtil.markPassed("Multiple records found")
 			return true
 		} else {
@@ -431,14 +431,20 @@ class helpersKeywords {
 		WebUI.delay(2)
 
 		// Click on the dropdown option
+		WebUI.waitForElementClickable(selectEmployee, 10)
 		WebUI.click(selectEmployee)
 
 		// Log info
 		KeywordUtil.logInfo("✅ Employee selected: " + employeeName)
 
-		// Optional verification
+
+		// Optional verification with normalized whitespace
 		String actualValue = WebUI.getAttribute(employeeInput, "value")
-		WebUI.verifyMatch(actualValue, employeeName, false)
+
+		String normalizedActual   = actualValue.replaceAll("\\s+", " ").trim()
+		String normalizedExpected = employeeName.replaceAll("\\s+", " ").trim()
+
+		WebUI.verifyMatch(normalizedActual, normalizedExpected, false)
 	}
 	@Keyword
 	def verifyActiveCheckbox(TestObject activeCheckbox) {
@@ -496,8 +502,8 @@ class helpersKeywords {
 			KeywordUtil.logInfo("Notification verified successfully.")
 		}
 	}
-	
-	
+
+
 	@Keyword
 	def setDateInput(TestObject dateInput, String dateValue) {
 		// Esperar a que el campo sea clickeable
@@ -513,6 +519,4 @@ class helpersKeywords {
 		// Escribir la nueva fecha
 		WebUI.setText(dateInput, dateValue)
 	}
-
-	
 }

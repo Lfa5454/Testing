@@ -1,5 +1,3 @@
-package logout
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -17,36 +15,8 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.kms.katalon.core.util.KeywordUtil
-
 
 import internal.GlobalVariable
 
-public class LogoutKeywors {
-
-	// ====== Objects ======
-	TestObject userDropdown = findTestObject('Object Repository/Page_OrangeHRM/Logout/button_UserDropdown')
-	TestObject logoutMenu   = findTestObject('Object Repository/Page_OrangeHRM/Logout/menuItem_Logout')
-	TestObject loginHeader  = findTestObject('Object Repository/Page_OrangeHRM/Logout/header_Login')
-
-	// ====== Methods ======
-
-	/**
-	 * Perform logout action
-	 */
-	def doLogout() {
-		WebUI.click(userDropdown)
-		WebUI.click(logoutMenu)
-		KeywordUtil.logInfo("Logout performed successfully")
-	}
-
-	/**
-	 * Verify that user is redirected to Login page
-	 */
-	def verifyLoginPage() {
-		WebUI.verifyElementPresent(loginHeader, 5)
-		WebUI.verifyElementText(loginHeader, "Login")
-		KeywordUtil.logInfo("Login page verified")
-	}
-
+public class test {
 }

@@ -24,7 +24,7 @@ import internal.GlobalVariable as GlobalVariable
 // ========== Pre-Condition ==========
 CustomKeywords.'login.LoginKeywords.loginToOrangeHRMIncognito'(
     GlobalVariable.adminUsername,
-    GlobalVariable.adminPass
+    GlobalVariable.adminPassword
 )
 
 // ========== Object Repository References ==========
@@ -57,13 +57,13 @@ CustomKeywords.'helpers.helpersKeywords.searchEmployeeByCriteria'(
     employeeIdInput,
     statusDropdown,
     searchButton,
-    GlobalVariable.employeeName,
+    GlobalVariable.employeeFirstName,
     GlobalVariable.employeeLastName,
     '',   // optional employeeId
     ''    // optional status
 )
 
-TestObject empObj = CustomKeywords.'helpers.helpersKeywords.validateEmployeeId'(GlobalVariable.employeeName)
+TestObject empObj = CustomKeywords.'helpers.helpersKeywords.validateEmployeeId'(GlobalVariable.employeeFirstName)
 WebUI.waitForElementClickable(empObj, 10)
 WebUI.click(empObj)
 

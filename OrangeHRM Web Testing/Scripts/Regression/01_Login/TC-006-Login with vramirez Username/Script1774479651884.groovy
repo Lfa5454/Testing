@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 // ============ Test Steps ===========
-CustomKeywords.'login.LoginKeywords.loginToOrangeHRMIncognito'(GlobalVariable.username, GlobalVariable.pass)
+CustomKeywords.'login.LoginKeywords.loginToOrangeHRMIncognito'(GlobalVariable.employeeUsername, GlobalVariable.employeePassword)
 
 
 // =========== Validation ============

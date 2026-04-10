@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//p[contains(@class,'oxd-toast-message') and text()='Successfully Saved</value>
+         <value>//p[contains(@class,'oxd-toast-message') and text()='Successfully Saved]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>7352f4a1-c1a4-4a0a-869d-bb1b19130552</webElementGuid>
+      <webElementGuid>954c6feb-67a5-43f0-a69b-505e939f4422</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text</value>
-      <webElementGuid>b63f332c-78ef-4a4e-a7f3-69d9949e0fdc</webElementGuid>
+      <webElementGuid>a6483937-0485-487f-9512-a928870a39bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,15 +49,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Successfully Saved</value>
-      <webElementGuid>21b40850-6f7c-48cc-8a7b-3cc45f19f89f</webElementGuid>
+      <webElementGuid>b8abec7d-2ea1-42e3-811f-dfdcf43b8b1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//p[contains(@class,'oxd-toast-message') and text()='Successfully Saved</value>
-      <webElementGuid>588ca28f-4d9c-449a-b0d1-053f158d87de</webElementGuid>
+      <value>//p[contains(@class,'oxd-toast-message') and text()='Successfully Saved]</value>
+      <webElementGuid>845d021d-3ac5-4bd3-937e-db1086b81c1f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='oxd-toaster_1']/div/div/div[2]/p[2]</value>
-      <webElementGuid>ccc5478f-50c1-473e-bcf5-43be73e919e2</webElementGuid>
+      <webElementGuid>63f3b59b-2637-4433-b01e-ef51a137ba5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/following::p[2]</value>
-      <webElementGuid>f364ea35-0343-426c-a8d8-9051c346b7b0</webElementGuid>
+      <webElementGuid>b5d7830c-68bf-4688-a73a-dde54801c9cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::p[1]</value>
-      <webElementGuid>2f0e7337-7591-42d6-9cad-d26360683321</webElementGuid>
+      <webElementGuid>6467693d-4f49-4d48-bf8e-14f5ebdd6f7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Successfully Saved']/parent::*</value>
-      <webElementGuid>590925b6-d9dc-4b17-9bb3-8f852c97a2b1</webElementGuid>
+      <webElementGuid>51857ffe-ec10-4622-be5d-febd62ec5027</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/p[2]</value>
-      <webElementGuid>d612cf52-b2a5-4a2e-a81a-efb1d5806c1f</webElementGuid>
+      <webElementGuid>4cd3bf3a-ab9c-4fa6-b78c-ee560f7785cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Successfully Saved' or . = 'Successfully Saved')]</value>
-      <webElementGuid>4095574d-aa1a-4bd7-8e5a-f25266aa9d77</webElementGuid>
+      <webElementGuid>12413045-469a-4ead-9679-4848a0a1592d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

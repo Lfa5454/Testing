@@ -23,7 +23,7 @@ import org.openqa.selenium.Keys as Keys
 // ========== Pre-Condition ==========
 CustomKeywords.'login.LoginKeywords.loginToOrangeHRMIncognito'(
 	GlobalVariable.adminUsername,
-	GlobalVariable.adminPass
+	GlobalVariable.adminPassword
 )
 
 // ========== Object Repository References ==========
@@ -54,7 +54,7 @@ CustomKeywords.'helpers.helpersKeywords.searchEmployeeByCriteria'(
 	'',                  // lastName
 	'',                  // employeeId
 	'',                  // status
-	GlobalVariable.username					 // username
+	GlobalVariable.employeeUsername					 // username
 	
 )
 // 3. Verify record found
@@ -69,4 +69,4 @@ WebUI.waitForElementVisible(usernameDisplayed, 10)
 WebUI.verifyElementVisible(usernameDisplayed)
 
 // 6. Verify username is unique in results no duplicated
-CustomKeywords.'helpers.helpersKeywords.verifyUniqueUsername'(usernameDisplayed, GlobalVariable.username)
+CustomKeywords.'helpers.helpersKeywords.verifyUniqueUsername'(usernameDisplayed, GlobalVariable.employeeUsername)

@@ -53,20 +53,20 @@ class PIM_AddEmployeePage {
 
 	def setEmployeeId() {
 		String newId = new helpersKeywords().clearAndSetEmployeeId(employeeIdInput)
-		GlobalVariable.employeeID = newId
+		GlobalVariable.employeeId = newId
 	}
 	def enableLoginDetails() {
 		WebUI.click(createLoginDetailsCheckboxEnabled)
 
 		WebUI.waitForElementClickable(usernameInput, 1)
 
-		WebUI.setText(usernameInput, GlobalVariable.username)
+		WebUI.setText(usernameInput, GlobalVariable.employeeUsername)
 
 		WebUI.click(enabledToggle)
 
-		WebUI.setEncryptedText(passwordInput, GlobalVariable.pass)
+		WebUI.setEncryptedText(passwordInput, GlobalVariable.employeePassword)
 
-		WebUI.setEncryptedText(confirmPasswordInput, GlobalVariable.pass)
+		WebUI.setEncryptedText(confirmPasswordInput, GlobalVariable.employeePassword)
 	}
 
 

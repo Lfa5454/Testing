@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>text_PDFResume</name>
+   <name>text_PDFDownloadResume</name>
    <tag></tag>
-   <elementGuidId>6c9e9492-fc91-4534-8cbb-87549cfc9116</elementGuidId>
+   <elementGuidId>3e7f0b18-65d6-4ac4-b426-eea0e6de35f6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class,'oxd-file-input-div')]</value>
+         <value>//p[contains(@class,'orangehrm-file-name')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>19c9cfd2-b4cd-4ea5-a31f-95a711c595e9</webElementGuid>
+      <webElementGuid>7081ba25-d0d3-4288-bf2b-6c4d9c1e45d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-topbar-body-nav-tab-item</value>
-      <webElementGuid>b54eab1b-4fb3-4cf3-bdc7-5e114dc6baa8</webElementGuid>
+      <webElementGuid>ae954442-cc2e-4370-bb7d-6d37204f2b28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>e60c0f18-4b3b-424b-9821-79efca177786</webElementGuid>
+      <webElementGuid>6c4edaad-a6d2-44f1-a5a0-efa677a1a10d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,15 +50,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Vacancies</value>
-      <webElementGuid>eaf311cf-7a5b-499a-a5a9-0f0ea4913719</webElementGuid>
+      <webElementGuid>e358a3b9-56d7-403e-a5a4-0bbf9968f521</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@class,'oxd-file-input-div')]</value>
-      <webElementGuid>7cd7e613-8b67-4a22-8983-f43bdc5d1642</webElementGuid>
+      <value>//p[contains(@class,'orangehrm-file-name')]</value>
+      <webElementGuid>e057e45c-ea0e-428e-aa67-87b53867e55a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[2]/a</value>
-      <webElementGuid>f0e16817-ed11-4dd5-951d-8286895808bd</webElementGuid>
+      <webElementGuid>46e8e26b-53c2-49f1-9304-a8b45ffac86f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Vacancies')]</value>
-      <webElementGuid>43b4f52c-367a-4ac5-9a2f-096a0159bf66</webElementGuid>
+      <webElementGuid>e224486a-b575-46eb-8411-d5783278c60d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Name'])[1]/preceding::a[1]</value>
-      <webElementGuid>d2f5694a-a147-4782-8970-3d4e15a25141</webElementGuid>
+      <webElementGuid>a9c4aa30-9013-4d41-a742-c50aa4d5fd4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Vacancies']/parent::*</value>
-      <webElementGuid>a0c9e3f6-9c37-4e4f-8a94-7659ba40f31a</webElementGuid>
+      <webElementGuid>5e0dbe74-e313-4133-a2bb-171084ef751f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[2]</value>
-      <webElementGuid>bd5d1fc0-3337-4fea-ad4d-750583bf5717</webElementGuid>
+      <webElementGuid>b82c84fe-5828-48ee-b620-a855aeb2b036</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/ul/li[2]/a</value>
-      <webElementGuid>7312aa49-4781-4436-b70e-dd7da8d97b36</webElementGuid>
+      <webElementGuid>cd75540e-621c-40de-af7e-d5de4a0336a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Vacancies' or . = 'Vacancies')]</value>
-      <webElementGuid>15ee7aa6-416f-42df-82f9-6bacdd40816c</webElementGuid>
+      <webElementGuid>46d9aaf0-3e6a-484b-8de9-71aea5eb4dbb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

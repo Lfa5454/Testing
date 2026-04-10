@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 // ============ Test Steps ===========
-CustomKeywords.'login.LoginKeywords.loginToOrangeHRM'('aa', GlobalVariable.adminPass)
+CustomKeywords.'login.LoginKeywords.loginToOrangeHRM'('aa', GlobalVariable.adminPassword)
 
 // =========== Validation ============
 //Validation 1 : Verify staying on the Login page

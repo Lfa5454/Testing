@@ -26,7 +26,7 @@ PIM_AddEmployeePage addEmployee = new PIM_AddEmployeePage()
 // ============ Test Steps ===========
 // adding Employee 
 addEmployee.openForm()
-addEmployee.fillEmployeeData(GlobalVariable.employeeName, GlobalVariable.employeeLastName)
+addEmployee.fillEmployeeData(GlobalVariable.employeeFirstName, GlobalVariable.employeeLastName)
 
 
 // set Employee ID

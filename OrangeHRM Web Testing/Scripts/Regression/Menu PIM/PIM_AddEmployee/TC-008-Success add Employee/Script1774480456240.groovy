@@ -20,7 +20,7 @@ import java.util.Random as Random
 import org.openqa.selenium.Keys as Keys
 
 // ========== Pre-Condition ==========
-CustomKeywords.'login.LoginKeywords.loginToOrangeHRMIncognito'(GlobalVariable.adminUsername, GlobalVariable.adminPass)
+CustomKeywords.'login.LoginKeywords.loginToOrangeHRMIncognito'(GlobalVariable.adminUsername, GlobalVariable.adminPassword)
 
 // ========== Object Repository References ==========
 TestObject menuPIM = findTestObject('Page_OrangeHRM/PIM/Common/menu_PIM')
@@ -55,27 +55,27 @@ WebUI.click(menuPIM)
 WebUI.click(addEmployeeBtn)
 
 // Input Employee Data
-WebUI.setText(firstNameInput, GlobalVariable.employeeName)
+WebUI.setText(firstNameInput, GlobalVariable.employeeFirstName)
 
 WebUI.setText(lastNameInput, GlobalVariable.employeeLastName)
 
 // Generate and set Employee ID
 String newId = CustomKeywords.'helpers.helpersKeywords.clearAndSetEmployeeId'(employeeIdInput)
 
-GlobalVariable.employeeID = newId
+GlobalVariable.employeeId = newId
 
 // Enable login details
 WebUI.click(createLoginDetailsCheckbox)
 
 WebUI.waitForElementClickable(usernameInput, 1)
 
-WebUI.setText(usernameInput, GlobalVariable.username)
+WebUI.setText(usernameInput, GlobalVariable.employeeUsername)
 
 WebUI.click(enabledToggle)
 
-WebUI.setEncryptedText(passwordInput, GlobalVariable.pass)
+WebUI.setEncryptedText(passwordInput, GlobalVariable.employeePassword)
 
-WebUI.setEncryptedText(confirmPasswordInput, GlobalVariable.pass)
+WebUI.setEncryptedText(confirmPasswordInput, GlobalVariable.employeePassword)
 
 // Log that the user already exists
 CustomKeywords.'helpers.helpersKeywords.checkIfUserExists'(usernameAlreadyExistInput)
